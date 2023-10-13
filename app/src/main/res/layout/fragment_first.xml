@@ -10,18 +10,30 @@
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_first_fragment"
+        android:text="@string/search_book"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:textColor="@color/white"/>
 
+    <EditText
+        android:id="@+id/main_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_here"
+        app:layout_constraintBottom_toTopOf="@+id/button_first"
+        app:layout_constraintTop_toBottomOf="@+id/textview_first"
+        tools:layout_editor_absoluteX="0dp"
+        android:background="@color/grey"
+        android:padding="20dp"/>
+
     <Button
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/next"
+        android:text="@string/search"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
