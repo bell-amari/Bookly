@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
 
+
         binding.userAddButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
